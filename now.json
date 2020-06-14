@@ -1,0 +1,16 @@
+{
+  "build": {
+    "env": {
+      "BOILERPLATE_NODE_ENV": "",
+      "BOILERPLATE_AUTH0_DOMAIN": "",
+      "BOILERPLATE_AUTH0_CLIENT_ID": "",
+      "BOILERPLATE_AUTH0_CLIENT_SECRET": "",
+      "SESSION_COOKIE_SECRET": "",
+      "BOILERPLATE_DB_USER": "",
+      "BOILERPLATE_DB_HOST": "",
+      "BOILERPLATE_DB_DATABASE": "",
+      "BOILERPLATE_DB_PASSWORD": "",
+      "BOILERPLATE_DB_PORT": ""
+    }
+  }
+}

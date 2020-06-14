@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header > div img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.header > div a {
+  padding: 4px;
+  margin: 0 6px;
+}

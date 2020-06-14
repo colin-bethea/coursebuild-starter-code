@@ -1,0 +1,15 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
+module.exports = {
+  env: {
+    BOILERPLATE_NODE_ENV: process.env.BOILERPLATE_NODE_ENV,
+    BOILERPLATE_AUTH0_DOMAIN: process.env.BOILERPLATE_AUTH0_DOMAIN,
+    BOILERPLATE_AUTH0_CLIENT_ID: process.env.BOILERPLATE_AUTH0_CLIENT_ID,
+    BOILERPLATE_AUTH0_CLIENT_SECRET:
+      process.env.BOILERPLATE_AUTH0_CLIENT_SECRET,
+    BOILERPLATE_AUTH0_SCOPE: "openid profile email",
+    SESSION_COOKIE_SECRET: process.env.SESSION_COOKIE_SECRET,
+    SESSION_COOKIE_LIFETIME: 7200
+  }
+};
