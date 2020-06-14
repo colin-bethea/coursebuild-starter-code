@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Router from 'next/router'
 
 import Layout from "../components/Layout";
 import { useFetchUser } from "../lib/user";
